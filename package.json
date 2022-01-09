@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-test2",
+  "version": "1.0.0",
+  "description": "a node app to learn jenkins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shany27/jenkins-test2.git"
+  },
+  "author": "shany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shany27/jenkins-test2/issues"
+  },
+  "homepage": "https://github.com/Shany27/jenkins-test2#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  }
+}
